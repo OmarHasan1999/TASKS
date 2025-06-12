@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15vh;
+    padding-top: 7vh;
+    gap: 3vh;
+}
+.data h3{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    color: aliceblue;
+}
+.form label{
+    padding-right: 2vh;
+    font-size: 16px;
+    font-weight: 600;
+}
+.form input{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vh;
+    width: 30vh;
+    height: 5vh;
+    color: rgba(0, 0, 0, 0.312);
+    font-style: 14px;
+    cursor: pointer;
+}
